@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D21FAEF2AF79E7F002B3BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21FAEE2AF79E7F002B3BC3 /* AppDelegate.swift */; };
+		0D21FAF12AF79E7F002B3BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21FAF02AF79E7F002B3BC3 /* SceneDelegate.swift */; };
+		0D21FAF42AF79E7F002B3BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAF22AF79E7F002B3BC3 /* LaunchScreen.storyboard */; };
+		0D21FAF72AF79E7F002B3BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAF52AF79E7F002B3BC3 /* Main.storyboard */; };
+		0D21FB002AF79E7F002B3BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21FAFF2AF79E7F002B3BC3 /* AppDelegate.swift */; };
+		0D21FB032AF79E7F002B3BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FB012AF79E7F002B3BC3 /* Main.storyboard */; };
+		0D21FB0A2AF79E7F002B3BC3 /* Noct Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0D21FB092AF79E7F002B3BC3 /* Noct Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0D21FB142AF79E7F002B3BC3 /* Noct Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0D21FB132AF79E7F002B3BC3 /* Noct Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0D21FB1A2AF79E7F002B3BC3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAD52AF79E7E002B3BC3 /* Main.html */; };
+		0D21FB1B2AF79E7F002B3BC3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAD52AF79E7E002B3BC3 /* Main.html */; };
+		0D21FB1C2AF79E7F002B3BC3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAD72AF79E7E002B3BC3 /* Icon.png */; };
+		0D21FB1D2AF79E7F002B3BC3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAD72AF79E7E002B3BC3 /* Icon.png */; };
+		0D21FB1E2AF79E7F002B3BC3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAD82AF79E7E002B3BC3 /* Style.css */; };
+		0D21FB1F2AF79E7F002B3BC3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAD82AF79E7E002B3BC3 /* Style.css */; };
+		0D21FB202AF79E7F002B3BC3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAD92AF79E7E002B3BC3 /* Script.js */; };
+		0D21FB212AF79E7F002B3BC3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAD92AF79E7E002B3BC3 /* Script.js */; };
+		0D21FB222AF79E7F002B3BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21FADA2AF79E7E002B3BC3 /* ViewController.swift */; };
+		0D21FB232AF79E7F002B3BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21FADA2AF79E7E002B3BC3 /* ViewController.swift */; };
+		0D21FB242AF79E7F002B3BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FADB2AF79E7F002B3BC3 /* Assets.xcassets */; };
+		0D21FB252AF79E7F002B3BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FADB2AF79E7F002B3BC3 /* Assets.xcassets */; };
+		0D21FB262AF79E7F002B3BC3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21FADD2AF79E7F002B3BC3 /* SafariWebExtensionHandler.swift */; };
+		0D21FB272AF79E7F002B3BC3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21FADD2AF79E7F002B3BC3 /* SafariWebExtensionHandler.swift */; };
+		0D21FB282AF79E7F002B3BC3 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FADF2AF79E7F002B3BC3 /* _locales */; };
+		0D21FB292AF79E7F002B3BC3 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FADF2AF79E7F002B3BC3 /* _locales */; };
+		0D21FB2A2AF79E7F002B3BC3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE02AF79E7F002B3BC3 /* images */; };
+		0D21FB2B2AF79E7F002B3BC3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE02AF79E7F002B3BC3 /* images */; };
+		0D21FB2C2AF79E7F002B3BC3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE12AF79E7F002B3BC3 /* manifest.json */; };
+		0D21FB2D2AF79E7F002B3BC3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE12AF79E7F002B3BC3 /* manifest.json */; };
+		0D21FB2E2AF79E7F002B3BC3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE22AF79E7F002B3BC3 /* background.js */; };
+		0D21FB2F2AF79E7F002B3BC3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE22AF79E7F002B3BC3 /* background.js */; };
+		0D21FB302AF79E7F002B3BC3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE32AF79E7F002B3BC3 /* content.js */; };
+		0D21FB312AF79E7F002B3BC3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE32AF79E7F002B3BC3 /* content.js */; };
+		0D21FB322AF79E7F002B3BC3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE42AF79E7F002B3BC3 /* popup.html */; };
+		0D21FB332AF79E7F002B3BC3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE42AF79E7F002B3BC3 /* popup.html */; };
+		0D21FB342AF79E7F002B3BC3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE52AF79E7F002B3BC3 /* popup.css */; };
+		0D21FB352AF79E7F002B3BC3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE52AF79E7F002B3BC3 /* popup.css */; };
+		0D21FB362AF79E7F002B3BC3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE62AF79E7F002B3BC3 /* popup.js */; };
+		0D21FB372AF79E7F002B3BC3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D21FAE62AF79E7F002B3BC3 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D21FB0B2AF79E7F002B3BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D21FACF2AF79E7D002B3BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D21FB082AF79E7F002B3BC3;
+			remoteInfo = "Noct Extension (iOS)";
+		};
+		0D21FB152AF79E7F002B3BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D21FACF2AF79E7D002B3BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D21FB122AF79E7F002B3BC3;
+			remoteInfo = "Noct Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D21FB3D2AF79E7F002B3BC3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0D21FB0A2AF79E7F002B3BC3 /* Noct Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FB442AF79E7F002B3BC3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0D21FB142AF79E7F002B3BC3 /* Noct Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D21FAD62AF79E7E002B3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		0D21FAD72AF79E7E002B3BC3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0D21FAD82AF79E7E002B3BC3 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		0D21FAD92AF79E7E002B3BC3 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		0D21FADA2AF79E7E002B3BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D21FADB2AF79E7F002B3BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D21FADD2AF79E7F002B3BC3 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		0D21FADF2AF79E7F002B3BC3 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		0D21FAE02AF79E7F002B3BC3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		0D21FAE12AF79E7F002B3BC3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		0D21FAE22AF79E7F002B3BC3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		0D21FAE32AF79E7F002B3BC3 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		0D21FAE42AF79E7F002B3BC3 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		0D21FAE52AF79E7F002B3BC3 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		0D21FAE62AF79E7F002B3BC3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		0D21FAEB2AF79E7F002B3BC3 /* Noct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D21FAEE2AF79E7F002B3BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D21FAF02AF79E7F002B3BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D21FAF32AF79E7F002B3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D21FAF62AF79E7F002B3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D21FAF82AF79E7F002B3BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D21FAFD2AF79E7F002B3BC3 /* Noct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D21FAFF2AF79E7F002B3BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D21FB022AF79E7F002B3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D21FB042AF79E7F002B3BC3 /* Noct.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Noct.entitlements; sourceTree = "<group>"; };
+		0D21FB092AF79E7F002B3BC3 /* Noct Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Noct Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D21FB0E2AF79E7F002B3BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D21FB132AF79E7F002B3BC3 /* Noct Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Noct Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D21FB182AF79E7F002B3BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D21FB192AF79E7F002B3BC3 /* Noct.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Noct.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D21FAE82AF79E7F002B3BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FAFA2AF79E7F002B3BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FB062AF79E7F002B3BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FB102AF79E7F002B3BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D21FACE2AF79E7D002B3BC3 = {
+			isa = PBXGroup;
+			children = (
+				0D21FAD32AF79E7E002B3BC3 /* Shared (App) */,
+				0D21FADC2AF79E7F002B3BC3 /* Shared (Extension) */,
+				0D21FAED2AF79E7F002B3BC3 /* iOS (App) */,
+				0D21FAFE2AF79E7F002B3BC3 /* macOS (App) */,
+				0D21FB0D2AF79E7F002B3BC3 /* iOS (Extension) */,
+				0D21FB172AF79E7F002B3BC3 /* macOS (Extension) */,
+				0D21FAEC2AF79E7F002B3BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D21FAD32AF79E7E002B3BC3 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0D21FADA2AF79E7E002B3BC3 /* ViewController.swift */,
+				0D21FADB2AF79E7F002B3BC3 /* Assets.xcassets */,
+				0D21FAD42AF79E7E002B3BC3 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		0D21FAD42AF79E7E002B3BC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D21FAD52AF79E7E002B3BC3 /* Main.html */,
+				0D21FAD72AF79E7E002B3BC3 /* Icon.png */,
+				0D21FAD82AF79E7E002B3BC3 /* Style.css */,
+				0D21FAD92AF79E7E002B3BC3 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D21FADC2AF79E7F002B3BC3 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0D21FADD2AF79E7F002B3BC3 /* SafariWebExtensionHandler.swift */,
+				0D21FADE2AF79E7F002B3BC3 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		0D21FADE2AF79E7F002B3BC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D21FADF2AF79E7F002B3BC3 /* _locales */,
+				0D21FAE02AF79E7F002B3BC3 /* images */,
+				0D21FAE12AF79E7F002B3BC3 /* manifest.json */,
+				0D21FAE22AF79E7F002B3BC3 /* background.js */,
+				0D21FAE32AF79E7F002B3BC3 /* content.js */,
+				0D21FAE42AF79E7F002B3BC3 /* popup.html */,
+				0D21FAE52AF79E7F002B3BC3 /* popup.css */,
+				0D21FAE62AF79E7F002B3BC3 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D21FAEC2AF79E7F002B3BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D21FAEB2AF79E7F002B3BC3 /* Noct.app */,
+				0D21FAFD2AF79E7F002B3BC3 /* Noct.app */,
+				0D21FB092AF79E7F002B3BC3 /* Noct Extension.appex */,
+				0D21FB132AF79E7F002B3BC3 /* Noct Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D21FAED2AF79E7F002B3BC3 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0D21FAEE2AF79E7F002B3BC3 /* AppDelegate.swift */,
+				0D21FAF02AF79E7F002B3BC3 /* SceneDelegate.swift */,
+				0D21FAF22AF79E7F002B3BC3 /* LaunchScreen.storyboard */,
+				0D21FAF52AF79E7F002B3BC3 /* Main.storyboard */,
+				0D21FAF82AF79E7F002B3BC3 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		0D21FAFE2AF79E7F002B3BC3 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0D21FAFF2AF79E7F002B3BC3 /* AppDelegate.swift */,
+				0D21FB012AF79E7F002B3BC3 /* Main.storyboard */,
+				0D21FB042AF79E7F002B3BC3 /* Noct.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		0D21FB0D2AF79E7F002B3BC3 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0D21FB0E2AF79E7F002B3BC3 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		0D21FB172AF79E7F002B3BC3 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0D21FB182AF79E7F002B3BC3 /* Info.plist */,
+				0D21FB192AF79E7F002B3BC3 /* Noct.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D21FAEA2AF79E7F002B3BC3 /* Noct (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D21FB3E2AF79E7F002B3BC3 /* Build configuration list for PBXNativeTarget "Noct (iOS)" */;
+			buildPhases = (
+				0D21FAE72AF79E7F002B3BC3 /* Sources */,
+				0D21FAE82AF79E7F002B3BC3 /* Frameworks */,
+				0D21FAE92AF79E7F002B3BC3 /* Resources */,
+				0D21FB3D2AF79E7F002B3BC3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D21FB0C2AF79E7F002B3BC3 /* PBXTargetDependency */,
+			);
+			name = "Noct (iOS)";
+			productName = "Noct (iOS)";
+			productReference = 0D21FAEB2AF79E7F002B3BC3 /* Noct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D21FAFC2AF79E7F002B3BC3 /* Noct (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D21FB452AF79E7F002B3BC3 /* Build configuration list for PBXNativeTarget "Noct (macOS)" */;
+			buildPhases = (
+				0D21FAF92AF79E7F002B3BC3 /* Sources */,
+				0D21FAFA2AF79E7F002B3BC3 /* Frameworks */,
+				0D21FAFB2AF79E7F002B3BC3 /* Resources */,
+				0D21FB442AF79E7F002B3BC3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D21FB162AF79E7F002B3BC3 /* PBXTargetDependency */,
+			);
+			name = "Noct (macOS)";
+			productName = "Noct (macOS)";
+			productReference = 0D21FAFD2AF79E7F002B3BC3 /* Noct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D21FB082AF79E7F002B3BC3 /* Noct Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D21FB3A2AF79E7F002B3BC3 /* Build configuration list for PBXNativeTarget "Noct Extension (iOS)" */;
+			buildPhases = (
+				0D21FB052AF79E7F002B3BC3 /* Sources */,
+				0D21FB062AF79E7F002B3BC3 /* Frameworks */,
+				0D21FB072AF79E7F002B3BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noct Extension (iOS)";
+			productName = "Noct Extension (iOS)";
+			productReference = 0D21FB092AF79E7F002B3BC3 /* Noct Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0D21FB122AF79E7F002B3BC3 /* Noct Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D21FB412AF79E7F002B3BC3 /* Build configuration list for PBXNativeTarget "Noct Extension (macOS)" */;
+			buildPhases = (
+				0D21FB0F2AF79E7F002B3BC3 /* Sources */,
+				0D21FB102AF79E7F002B3BC3 /* Frameworks */,
+				0D21FB112AF79E7F002B3BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noct Extension (macOS)";
+			productName = "Noct Extension (macOS)";
+			productReference = 0D21FB132AF79E7F002B3BC3 /* Noct Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D21FACF2AF79E7D002B3BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0D21FAEA2AF79E7F002B3BC3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0D21FAFC2AF79E7F002B3BC3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0D21FB082AF79E7F002B3BC3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0D21FB122AF79E7F002B3BC3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D21FAD22AF79E7D002B3BC3 /* Build configuration list for PBXProject "Noct" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D21FACE2AF79E7D002B3BC3;
+			productRefGroup = 0D21FAEC2AF79E7F002B3BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D21FAEA2AF79E7F002B3BC3 /* Noct (iOS) */,
+				0D21FAFC2AF79E7F002B3BC3 /* Noct (macOS) */,
+				0D21FB082AF79E7F002B3BC3 /* Noct Extension (iOS) */,
+				0D21FB122AF79E7F002B3BC3 /* Noct Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D21FAE92AF79E7F002B3BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D21FB1C2AF79E7F002B3BC3 /* Icon.png in Resources */,
+				0D21FAF42AF79E7F002B3BC3 /* LaunchScreen.storyboard in Resources */,
+				0D21FB1A2AF79E7F002B3BC3 /* Main.html in Resources */,
+				0D21FB202AF79E7F002B3BC3 /* Script.js in Resources */,
+				0D21FB242AF79E7F002B3BC3 /* Assets.xcassets in Resources */,
+				0D21FAF72AF79E7F002B3BC3 /* Main.storyboard in Resources */,
+				0D21FB1E2AF79E7F002B3BC3 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FAFB2AF79E7F002B3BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D21FB1D2AF79E7F002B3BC3 /* Icon.png in Resources */,
+				0D21FB1F2AF79E7F002B3BC3 /* Style.css in Resources */,
+				0D21FB032AF79E7F002B3BC3 /* Main.storyboard in Resources */,
+				0D21FB212AF79E7F002B3BC3 /* Script.js in Resources */,
+				0D21FB252AF79E7F002B3BC3 /* Assets.xcassets in Resources */,
+				0D21FB1B2AF79E7F002B3BC3 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FB072AF79E7F002B3BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D21FB2E2AF79E7F002B3BC3 /* background.js in Resources */,
+				0D21FB342AF79E7F002B3BC3 /* popup.css in Resources */,
+				0D21FB322AF79E7F002B3BC3 /* popup.html in Resources */,
+				0D21FB2A2AF79E7F002B3BC3 /* images in Resources */,
+				0D21FB2C2AF79E7F002B3BC3 /* manifest.json in Resources */,
+				0D21FB282AF79E7F002B3BC3 /* _locales in Resources */,
+				0D21FB302AF79E7F002B3BC3 /* content.js in Resources */,
+				0D21FB362AF79E7F002B3BC3 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FB112AF79E7F002B3BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D21FB2F2AF79E7F002B3BC3 /* background.js in Resources */,
+				0D21FB352AF79E7F002B3BC3 /* popup.css in Resources */,
+				0D21FB332AF79E7F002B3BC3 /* popup.html in Resources */,
+				0D21FB2B2AF79E7F002B3BC3 /* images in Resources */,
+				0D21FB2D2AF79E7F002B3BC3 /* manifest.json in Resources */,
+				0D21FB292AF79E7F002B3BC3 /* _locales in Resources */,
+				0D21FB312AF79E7F002B3BC3 /* content.js in Resources */,
+				0D21FB372AF79E7F002B3BC3 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D21FAE72AF79E7F002B3BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D21FB222AF79E7F002B3BC3 /* ViewController.swift in Sources */,
+				0D21FAEF2AF79E7F002B3BC3 /* AppDelegate.swift in Sources */,
+				0D21FAF12AF79E7F002B3BC3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FAF92AF79E7F002B3BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D21FB232AF79E7F002B3BC3 /* ViewController.swift in Sources */,
+				0D21FB002AF79E7F002B3BC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FB052AF79E7F002B3BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D21FB262AF79E7F002B3BC3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D21FB0F2AF79E7F002B3BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D21FB272AF79E7F002B3BC3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D21FB0C2AF79E7F002B3BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D21FB082AF79E7F002B3BC3 /* Noct Extension (iOS) */;
+			targetProxy = 0D21FB0B2AF79E7F002B3BC3 /* PBXContainerItemProxy */;
+		};
+		0D21FB162AF79E7F002B3BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D21FB122AF79E7F002B3BC3 /* Noct Extension (macOS) */;
+			targetProxy = 0D21FB152AF79E7F002B3BC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D21FAD52AF79E7E002B3BC3 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D21FAD62AF79E7E002B3BC3 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		0D21FAF22AF79E7F002B3BC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D21FAF32AF79E7F002B3BC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0D21FAF52AF79E7F002B3BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D21FAF62AF79E7F002B3BC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D21FB012AF79E7F002B3BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D21FB022AF79E7F002B3BC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D21FB382AF79E7F002B3BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D21FB392AF79E7F002B3BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0D21FB3B2AF79E7F002B3BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88699V6T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Noct Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.mja.Noct.Extension;
+				PRODUCT_NAME = "Noct Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D21FB3C2AF79E7F002B3BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88699V6T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Noct Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.mja.Noct.Extension;
+				PRODUCT_NAME = "Noct Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D21FB3F2AF79E7F002B3BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88699V6T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Noct;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.mja.Noct;
+				PRODUCT_NAME = Noct;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D21FB402AF79E7F002B3BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88699V6T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Noct;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.mja.Noct;
+				PRODUCT_NAME = Noct;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D21FB422AF79E7F002B3BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Noct.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88699V6T6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Noct Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.mja.Noct.Extension;
+				PRODUCT_NAME = "Noct Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0D21FB432AF79E7F002B3BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Noct.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88699V6T6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Noct Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.mja.Noct.Extension;
+				PRODUCT_NAME = "Noct Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0D21FB462AF79E7F002B3BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Noct.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88699V6T6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Noct;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.mja.Noct;
+				PRODUCT_NAME = Noct;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0D21FB472AF79E7F002B3BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Noct.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J88699V6T6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Noct;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = technology.mja.Noct;
+				PRODUCT_NAME = Noct;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D21FAD22AF79E7D002B3BC3 /* Build configuration list for PBXProject "Noct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D21FB382AF79E7F002B3BC3 /* Debug */,
+				0D21FB392AF79E7F002B3BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D21FB3A2AF79E7F002B3BC3 /* Build configuration list for PBXNativeTarget "Noct Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D21FB3B2AF79E7F002B3BC3 /* Debug */,
+				0D21FB3C2AF79E7F002B3BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D21FB3E2AF79E7F002B3BC3 /* Build configuration list for PBXNativeTarget "Noct (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D21FB3F2AF79E7F002B3BC3 /* Debug */,
+				0D21FB402AF79E7F002B3BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D21FB412AF79E7F002B3BC3 /* Build configuration list for PBXNativeTarget "Noct Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D21FB422AF79E7F002B3BC3 /* Debug */,
+				0D21FB432AF79E7F002B3BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D21FB452AF79E7F002B3BC3 /* Build configuration list for PBXNativeTarget "Noct (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D21FB462AF79E7F002B3BC3 /* Debug */,
+				0D21FB472AF79E7F002B3BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D21FACF2AF79E7D002B3BC3 /* Project object */;
+}
